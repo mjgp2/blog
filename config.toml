@@ -1,0 +1,4 @@
+baseURL = "https://mjgp2.github.io/blog"
+languageCode = "en-us"
+title = "mjgp2 blog"
+theme = "ananke"
