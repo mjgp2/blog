@@ -3,22 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://mjgp2.github.io/blog/</loc>
-    <lastmod>2020-07-22T16:28:42+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mjgp2.github.io/blog/posts/my-first-post/</loc>
-    <lastmod>2020-07-22T16:28:42+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mjgp2.github.io/blog/posts/</loc>
-    <lastmod>2020-07-22T16:28:42+01:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://mjgp2.github.io/blog/categories/</loc>
+  </url>
+  
+  <url>
+    <loc>https://mjgp2.github.io/blog/</loc>
   </url>
   
   <url>
