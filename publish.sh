@@ -20,6 +20,7 @@ rm -rf public/*
 
 echo "Generating site"
 hugo
+touch public/.nojekyll
 
 echo "Updating gh-pages branch"
 pushd public
