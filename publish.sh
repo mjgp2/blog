@@ -19,7 +19,7 @@ echo "Removing existing files"
 rm -rf public/*
 
 echo "Generating site"
-PATH=$PWD:$PATH hugo
+PATH=$PWD:$PATH hugo -D
 touch public/.nojekyll
 
 echo "Updating gh-pages branch"
