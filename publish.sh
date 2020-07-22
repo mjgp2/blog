@@ -19,12 +19,12 @@ echo "Removing existing files"
 rm -rf public/*
 
 echo "Generating site"
-hugo
+PATH=$PWD:$PATH hugo
 touch public/.nojekyll
 
 echo "Updating gh-pages branch"
 pushd public
-git add --all && git commit -m "Publishing to gh-pages (publish.sh)" && git push
+git add --all && git commit -m "Publishing to gh-pages (publish.sh)" && git push --force
 popd
 
 echo "Pushing to github"
