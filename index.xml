@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>mjgp2 blog</title>
+    <link>https://mjgp2.github.io/blog/</link>
+    <description>Recent content on mjgp2 blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 22 Jul 2020 16:28:42 +0100</lastBuildDate>
+    
+	<atom:link href="https://mjgp2.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>My First Post</title>
+      <link>https://mjgp2.github.io/blog/posts/my-first-post/</link>
+      <pubDate>Wed, 22 Jul 2020 16:28:42 +0100</pubDate>
+      
+      <guid>https://mjgp2.github.io/blog/posts/my-first-post/</guid>
+      <description>This is a brand new blog of mine.</description>
+    </item>
+    
+  </channel>
+</rss>
