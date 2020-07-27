@@ -130,46 +130,46 @@ This generally is a pointer to an XML file that looks something like this:
         <domain includeSubdomains="false">192.168.0.1</domain>
     </domain-config>
     <domain-config cleartextTrafficPermitted="false">
-        <domain includeSubdomains="false">www.amazon.com</domain>
-        <domain includeSubdomains="false">www.amazon.ca</domain>
-        <domain includeSubdomains="false">www.amazon.cn</domain>
-        <domain includeSubdomains="false">www.amazon.ae</domain>
-        <domain includeSubdomains="false">amazon.com</domain>
-        <domain includeSubdomains="false">amazon.ca</domain>
-        <domain includeSubdomains="false">amazon.cn</domain>
-        <domain includeSubdomains="false">amazon.ae</domain>
-        <domain includeSubdomains="false">www.amazon.de</domain>
-        <domain includeSubdomains="false">www.amazon.eg</domain>
-        <domain includeSubdomains="false">www.amazon.es</domain>
-        <domain includeSubdomains="false">www.amazon.eu</domain>
-        <domain includeSubdomains="false">amazon.de</domain>
-        <domain includeSubdomains="false">amazon.eg</domain>
-        <domain includeSubdomains="false">amazon.es</domain>
-        <domain includeSubdomains="false">amazon.eu</domain>
-        <domain includeSubdomains="false">www.amazon.fr</domain>
-        <domain includeSubdomains="false">www.amazon.in</domain>
-        <domain includeSubdomains="false">www.amazon.it</domain>
-        <domain includeSubdomains="false">www.amazon.sa</domain>
-        <domain includeSubdomains="false">amazon.fr</domain>
-        <domain includeSubdomains="false">amazon.in</domain>
-        <domain includeSubdomains="false">amazon.it</domain>
-        <domain includeSubdomains="false">amazon.sa</domain>
-        <domain includeSubdomains="false">www.amazon.sg</domain>
-        <domain includeSubdomains="false">www.amazon.co.jp</domain>
-        <domain includeSubdomains="false">www.amazon.co.uk</domain>
-        <domain includeSubdomains="false">www.amazon.com.au</domain>
-        <domain includeSubdomains="false">amazon.sg</domain>
-        <domain includeSubdomains="false">amazon.co.jp</domain>
-        <domain includeSubdomains="false">amazon.co.uk</domain>
-        <domain includeSubdomains="false">amazon.com.au</domain>
-        <domain includeSubdomains="false">www.amazon.com.br</domain>
-        <domain includeSubdomains="false">www.amazon.com.mx</domain>
-        <domain includeSubdomains="false">www.amazon.com.sg</domain>
-        <domain includeSubdomains="false">www.amazon.com.tr</domain>
-        <domain includeSubdomains="false">amazon.com.br</domain>
-        <domain includeSubdomains="false">amazon.com.mx</domain>
-        <domain includeSubdomains="false">amazon.com.sg</domain>
-        <domain includeSubdomains="false">amazon.com.tr</domain>
+        <domain includeSubdomains="false">www.mjgp2.com</domain>
+        <domain includeSubdomains="false">www.mjgp2.ca</domain>
+        <domain includeSubdomains="false">www.mjgp2.cn</domain>
+        <domain includeSubdomains="false">www.mjgp2.ae</domain>
+        <domain includeSubdomains="false">mjgp2.com</domain>
+        <domain includeSubdomains="false">mjgp2.ca</domain>
+        <domain includeSubdomains="false">mjgp2.cn</domain>
+        <domain includeSubdomains="false">mjgp2.ae</domain>
+        <domain includeSubdomains="false">www.mjgp2.de</domain>
+        <domain includeSubdomains="false">www.mjgp2.eg</domain>
+        <domain includeSubdomains="false">www.mjgp2.es</domain>
+        <domain includeSubdomains="false">www.mjgp2.eu</domain>
+        <domain includeSubdomains="false">mjgp2.de</domain>
+        <domain includeSubdomains="false">mjgp2.eg</domain>
+        <domain includeSubdomains="false">mjgp2.es</domain>
+        <domain includeSubdomains="false">mjgp2.eu</domain>
+        <domain includeSubdomains="false">www.mjgp2.fr</domain>
+        <domain includeSubdomains="false">www.mjgp2.in</domain>
+        <domain includeSubdomains="false">www.mjgp2.it</domain>
+        <domain includeSubdomains="false">www.mjgp2.sa</domain>
+        <domain includeSubdomains="false">mjgp2.fr</domain>
+        <domain includeSubdomains="false">mjgp2.in</domain>
+        <domain includeSubdomains="false">mjgp2.it</domain>
+        <domain includeSubdomains="false">mjgp2.sa</domain>
+        <domain includeSubdomains="false">www.mjgp2.sg</domain>
+        <domain includeSubdomains="false">www.mjgp2.co.jp</domain>
+        <domain includeSubdomains="false">www.mjgp2.co.uk</domain>
+        <domain includeSubdomains="false">www.mjgp2.com.au</domain>
+        <domain includeSubdomains="false">mjgp2.sg</domain>
+        <domain includeSubdomains="false">mjgp2.co.jp</domain>
+        <domain includeSubdomains="false">mjgp2.co.uk</domain>
+        <domain includeSubdomains="false">mjgp2.com.au</domain>
+        <domain includeSubdomains="false">www.mjgp2.com.br</domain>
+        <domain includeSubdomains="false">www.mjgp2.com.mx</domain>
+        <domain includeSubdomains="false">www.mjgp2.com.sg</domain>
+        <domain includeSubdomains="false">www.mjgp2.com.tr</domain>
+        <domain includeSubdomains="false">mjgp2.com.br</domain>
+        <domain includeSubdomains="false">mjgp2.com.mx</domain>
+        <domain includeSubdomains="false">mjgp2.com.sg</domain>
+        <domain includeSubdomains="false">mjgp2.com.tr</domain>
         <pin-set expiration="2021-01-01">
             <pin digest="SHA-256">i7WTqTvh0OioIruIfFR4kMPnBqrS2rdiVPl/s2uC/CY=</pin>
             <pin digest="SHA-256">njN4rRG+22dNXAi+yb8e3UMypgzPUPHlv4+foULwl1g=</pin>
@@ -197,7 +197,7 @@ for i in $(adb shell pm list packages | awk -F':' '{print $2}'); do adb pull "$(
 
 You can decompile this with https://ibotpeaches.github.io/Apktool/[apktool], for example:
 
-`apktool d com.amazon.mShop.android.shopping.apk`
+`apktool d com.mjgp2.mShop.android.shopping.apk`
 
 This tool will dump out the app. (I have not had 100% success using it to rebuild applications.)
 
